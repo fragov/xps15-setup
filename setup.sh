@@ -27,6 +27,11 @@ sudo apt install simplescreenrecorder vlc gimp -y
 ## Office
 sudo apt install libreoffice-writer libreoffice-calc -y 
 
+## VPN
+sudo apt-get install openvpn resolvconf network-manager-openvpn-gnome unbound -y
+sudo chmod +x /etc/resolvconf/update.d/unbound
+sudo /etc/init.d/network-manager restart
+
 # Add Flatpak support
 sudo apt install gnome-software-plugin-flatpak -yy
 
