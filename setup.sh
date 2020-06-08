@@ -12,6 +12,8 @@ sudo apt install htop neovim curl ubuntu-restricted-extras virtualbox flatpak un
 sudo apt -o Dpkg::Options::="--force-overwrite" install bat ripgrep -y
 
 ln -s /usr/bin/batcat /usr/local/bin/bat
+mkdir ~/Projects
+mkdir ~/VMs
 
 ## Version-control system
 sudo apt install git stow tig -y
