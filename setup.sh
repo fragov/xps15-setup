@@ -8,7 +8,7 @@ sudo apt update -qq
 
 # Install software
 ## Tools & General
-sudo apt install htop neovim curl ubuntu-restricted-extras virtualbox flatpak universal-ctags ranger gnome-disk-utility  -y
+sudo apt install htop neovim curl fzf ubuntu-restricted-extras virtualbox flatpak universal-ctags ranger gnome-disk-utility  -y
 sudo apt -o Dpkg::Options::="--force-overwrite" install bat ripgrep -y
 
 ln -s /usr/bin/batcat /usr/local/bin/bat
